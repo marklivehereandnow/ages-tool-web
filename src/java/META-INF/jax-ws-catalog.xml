@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<catalog xmlns="urn:oasis:names:tc:entity:xmlns:xml:catalog" prefer="system">
+    <system systemId="http://2nd2go.org:8080/ages-w013-ws/AgesCardWebService?wsdl" uri="wsdl/2nd2go.org_8080/ages-w013-ws/AgesCardWebService.wsdl"/>
+    <system systemId="http://2nd2go.org:8080/ages-w013-ws/AgesCardWebService?xsd=1" uri="wsdl/2nd2go.org_8080/ages-w013-ws/AgesCardWebService.xsd_1.xsd"/>
+    <system systemId="http://2nd2go.org:8080/ages-w013-ws/CardWS?wsdl" uri="wsdl/2nd2go.org_8080/ages-w013-ws/CardWS.wsdl"/>
+    <system systemId="http://2nd2go.org:8080/ages-w013-ws/CardWS?xsd=1" uri="wsdl/2nd2go.org_8080/ages-w013-ws/CardWS.xsd_1.xsd"/>
+</catalog>
