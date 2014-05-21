@@ -104,7 +104,7 @@ public class ToolCardToAgesCardStatement {
     private void createAgesCard() throws NonexistentEntityException, Exception {
 
         List<  Card> list1;
-        List<  AgesCard> list2;
+//        List<  AgesCard> list2;
         list1 = control1.findCardEntities();
         System.out.println("Card size = " + list1.size());
 //        list2 = control2.findAgesCardEntities();
@@ -129,8 +129,10 @@ public class ToolCardToAgesCardStatement {
 //                control2.create(agesCard);
                 seq++;
                 agesCard.setSeq(seq);
-    
-                agesList.add(agesCard);
+                AgesCard copy=agesCard.copy();
+                System.out.print(" "+seq);
+                System.out.println(" "+agesCard.getSeq());
+                agesList.add(copy);
             }
         }
 //        list2 = control2.findAgesCardEntities();
